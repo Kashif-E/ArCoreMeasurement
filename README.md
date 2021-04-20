@@ -14,6 +14,7 @@ Clone the repo and open it in android studio
 
 ## Usage
 
+after installing you  can start using and start measuring
 
 
 ## Contributing
