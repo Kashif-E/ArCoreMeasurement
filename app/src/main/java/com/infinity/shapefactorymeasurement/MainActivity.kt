@@ -1,15 +1,12 @@
 package com.infinity.shapefactorymeasurement
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Gravity
 import android.widget.Toast
 import androidx.activity.viewModels
-import com.google.ar.core.ArCoreApk
-import com.google.ar.core.Session
-import com.google.ar.core.exceptions.*
-import com.google.ar.sceneform.FrameTime
+import androidx.appcompat.app.AppCompatActivity
 import com.infinity.shapefactorymeasurement.databinding.ActivityMainBinding
+import com.infinity.shapefactorymeasurement.viewmodel.ViewModel
 
 class MainActivity : AppCompatActivity() {
     val viewModel : ViewModel by viewModels()

@@ -19,6 +19,8 @@ object CameraPermissionHelper {
     fun hasCameraPermission(activity: Activity?): Boolean {
         return (ContextCompat.checkSelfPermission(activity!!, CAMERA_PERMISSION)
                 == PackageManager.PERMISSION_GRANTED)
+
+
     }
 
     /** Check to see we have the necessary permissions for this app, and ask for them if we don't.  */

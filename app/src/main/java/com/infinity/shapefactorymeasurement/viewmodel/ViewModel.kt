@@ -1,16 +1,9 @@
-package com.infinity.shapefactorymeasurement
+package com.infinity.shapefactorymeasurement.viewmodel
 
-import android.content.Context
-import android.graphics.Color
-import androidx.core.content.ContentProviderCompat.requireContext
 import androidx.lifecycle.ViewModel
 import com.google.ar.sceneform.AnchorNode
-import com.google.ar.sceneform.math.Vector3
-import com.google.ar.sceneform.rendering.Material
-import com.google.ar.sceneform.rendering.MaterialFactory
 import com.google.ar.sceneform.rendering.ModelRenderable
-import com.google.ar.sceneform.rendering.ShapeFactory
-import java.util.ArrayList
+import java.util.*
 
 class ViewModel() :ViewModel(){
     lateinit var widthlinerender: ModelRenderable
